@@ -12,7 +12,7 @@
 }
 
 .text {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
 }
 
 .completed {
@@ -25,13 +25,14 @@
 }
 
 .fa-times {
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   color: rgba(175, 47, 47, 0.15);
 }
 
 .mark {
   position: absolute;
   left: 20px;
+  background-color: rgb(255, 255, 255) !important;
 }
 
 .todo-item:hover .fa-times {
